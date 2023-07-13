@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="icon" href="image/logo2.jpg" type="image/x-icon">
+    <title>
+         Sign In | RainBu
+    </title>
+    
+    <link rel="stylesheet" media="screen" href="https://cdn.dribbble.com/assets/auth-d1500e4217a9747aea65559f96dcc49e3040da015657e8211ba08e095552389c.css" />
+      <meta name="description" content="Sign in to your Dribbble account, the world’s leading community for designers to share, grow, and get hired">
+
+    <meta name="itly-controller" content="sessions" />
+<meta name="itly-action" content="new" />
+
+
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  </head>
+
+  <body class="logged-out not-pro not-player not-self not-team not-on-team  dribbble-v1 sign-in">
+    
+    <div id="main-container">
+      <section class="auth-sidebar">
+        <div class="auth-sidebar-content">
+          <header>
+            <h1>Discover the world’s Best Gaming Gadgets.</h1>
+          </header>
+          <div class="artwork">
+            <div class="artwork-image"></div>
+              <p class="artwork-attribution">
+                Art by
+                  <a class="url" rel="contact" href="/karicca">Irina Valeeva</a>
+
+              </p>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+          <nav class="auth-nav">
+              <p class="auth-link">
+    Not a member? <a href="/signup/new">Sign up now</a>
+  </p>
+
+          </nav>
+        <main>
+          
+<div class="auth-content">
+  <h2>Sign in to RainBu</h2>
+  <div class="auth-connections">
+      <div
+    id="g_id_onload"
+    data-client_id="32073492121-s6ur8ti01mh34gq2bpbufb8ujdfrpn4v.apps.googleusercontent.com"
+    data-login_uri="https://dribbble.com/auth/google_one_tap/callback"
+    
+    data-ux_mode="redirect"
+  ></div>
+
+      <div class="google-connect-btn">
+    <div
+      class="g_id_signin"
+      data-type="standard"
+      data-size="large"
+      data-text="sign_in_with"
+      data-logo_alignment="left"
+      data-width="250"
+      data-shape="rectangular"
+      data-theme="filled_blue"
+    ></div>
+  </div>
+
+    <a class="auth-twitter form-btn" data-auth-action="Sign In" rel="nofollow" data-method="post" href="https://dribbble.com/auth/Twitter">
+      <svg xmlns="http://www.w3.org/2000/svg" aria-labelledby="a3ubrif4ggjn41zjdcywlwtophxi9whm" role="img" viewBox="0 0 24 24" class="icon "><title id="a3ubrif4ggjn41zjdcywlwtophxi9whm">Twitter icon</title><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"></path></svg>
+
+</a>  </div>
+
+  <hr class='divider'>
+
+  <div class="auth-form sign-in-form">
+    <form action="/session" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="axM1KI0j+0gBYSZm0tpmHi7+8dyd13gA/RBQOT9VNFr7Cj37hYarl78i+eJ1UGHgW1Ssok11uioNjjti4iOB7A==" />
+      
+      <div class="form-fields">
+        <fieldset>
+          <label for="login">Username or Email Address</label>
+          <input type="text" name="login" id="login" tabindex="1" class="text-input" autocorrect="off" autocapitalize="off" data-cypress="email" />
+        </fieldset>
+
+        <fieldset>
+          <label for="password" class="password">Password <a href="/password_resets/new">Forgot password?</a></label>
+          <input type="password" name="password" id="password" value="" tabindex="2" class="text-input" data-cypress="password" />
+        </fieldset>
+      </div>
+
+      <input class="button form-sub" type="submit" value="Sign In" tabindex="3" data-cypress="submit-sign-in-btn"/>
+</form>
+    <p class="auth-link-mobile">
+      Not a member? <a href="/signup/new">Sign up now</a>
+    </p>
+  </div>
+</div>
+
+
+<div id="site-notifications"></div>
+<script src="https://cdn.dribbble.com/assets/packs/js/login-page.85153ccf2f509d950d5e.js"></script>
+
+        </main>
+      </section>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- jquery failover -->
+<script>
+  if (typeof jQuery == 'undefined') {
+    document.write(unescape('%3Cscript src="https://cdn.dribbble.com/assets/jquery-3.2.1.min-fe436dfd579c3153d6ecfe2c7e893127c27ff1fe44f276d9f149535ba5e6f2c0.js">%3C/script>'))
+  }
+</script>
+
+
+    <script>$("input:text:visible:first").trigger('focus');</script>
+   
+	</body>
+</html>
